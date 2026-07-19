@@ -1,0 +1,2 @@
+import { AnalyticsPage } from "../components/common/AnalyticsPage"; import { clinicalApi } from "../api/clinicalApi";
+export function ClinicalPage(){return <AnalyticsPage title="Clinical Analytics" request={clinicalApi.dashboard}/>}

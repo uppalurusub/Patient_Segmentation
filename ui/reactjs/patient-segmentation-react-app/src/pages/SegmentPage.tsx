@@ -1,0 +1,2 @@
+import { useState } from "react"; import { AnalyticsPage } from "../components/common/AnalyticsPage"; import { segmentApi } from "../api/segmentApi";
+export function SegmentPage(){const [key,setKey]=useState(0); return <><button className="run" onClick={async()=>{await segmentApi.run();setKey(v=>v+1)}}>Run Segmentation</button><div key={key}><AnalyticsPage title="Patient Segmentation" request={segmentApi.summary}/></div></>}

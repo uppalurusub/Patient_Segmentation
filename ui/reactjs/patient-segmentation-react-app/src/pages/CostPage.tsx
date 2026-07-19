@@ -1,0 +1,2 @@
+import { AnalyticsPage } from "../components/common/AnalyticsPage"; import { costApi } from "../api/costApi";
+export function CostPage(){return <AnalyticsPage title="Cost Analytics" request={costApi.dashboard}/>}

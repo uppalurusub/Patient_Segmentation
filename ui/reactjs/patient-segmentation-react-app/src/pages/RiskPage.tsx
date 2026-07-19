@@ -1,0 +1,2 @@
+import { AnalyticsPage } from "../components/common/AnalyticsPage"; import { riskApi } from "../api/riskApi";
+export function RiskPage(){return <AnalyticsPage title="Risk Analytics" request={riskApi.dashboard}/>}

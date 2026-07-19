@@ -1,0 +1,1 @@
+export function Loading(){return <div className="state">Loading analytics…</div>}

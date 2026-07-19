@@ -1,0 +1,2 @@
+import { AnalyticsPage } from "../components/common/AnalyticsPage"; import { patientApi } from "../api/patientApi";
+export function PatientPage(){return <AnalyticsPage title="Patient Analytics" request={patientApi.summary}/>}

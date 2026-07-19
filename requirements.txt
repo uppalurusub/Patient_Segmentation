@@ -1,0 +1,13 @@
+uv
+fastapi
+uvicorn
+matplotlib
+seaborn
+plotly
+streamlit
+scipy
+scikit-learn
+ipykernel
+nbformat
+notebook 
+jupyterlab
