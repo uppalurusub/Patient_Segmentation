@@ -1,2 +1,5 @@
-import { AnalyticsPage } from "../components/common/AnalyticsPage"; import { utilizationApi } from "../api/utilizationApi";
-export function UtilizationPage(){return <AnalyticsPage title="Utilization Analytics" request={utilizationApi.dashboard}/>}
+import { AnalyticsPage } from "../components/common/AnalyticsPage"; 
+import { utilizationApi } from "../api/utilizationApi";
+export function UtilizationPage(){
+  return <AnalyticsPage title="Utilization Analytics" request={utilizationApi.dashboard}/>
+}
